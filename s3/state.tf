@@ -6,10 +6,10 @@ resource "aws_s3_bucket" "remote_state" {
   acl    = "private"
 
   tags = "${merge(var.default_tags, 
-  map("Environment", format("%s", var.environment)), 
-  map("Workspace", format("%s", terraform.workspace)),
-  map("Name", format("%s-tfm-state", var.name_prefix))
-  )
+    map("Environment", format("%s", var.environment)), 
+    map("Workspace", format("%s", terraform.workspace)),
+    map("Name", format("%s-tfm-state", var.name_prefix))
+    )
   }"
 
   versioning {

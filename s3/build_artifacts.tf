@@ -7,9 +7,9 @@ resource "aws_s3_bucket" "build_artifacts" {
   }
 
   tags = "${merge(var.default_tags, 
-  map("Environment", format("%s", var.environment)), 
-  map("Workspace", format("%s", terraform.workspace)),
-  map("Name", format("%s-build-artifacts", var.name_prefix))
-  )
+    map("Environment", format("%s", var.environment)), 
+    map("Workspace", format("%s", terraform.workspace)),
+    map("Name", format("%s-build-artifacts", var.name_prefix))
+    )
   }"
 }
