@@ -12,7 +12,7 @@ variable "default_tags" {
 
   default = {
     Terraform          = "true"
-    GitHubRepo         = "bg-tfm-base"
+    GitHubRepo         = "bg-tfm-common"
     GitHubOrganization = "rb-org"
   }
 }

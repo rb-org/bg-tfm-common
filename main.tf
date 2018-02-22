@@ -1,7 +1,5 @@
 provider "aws" {
   region                  = "${var.region}"
-  shared_credentials_file = "~/.aws/credentials"
-  profile                 = "rb-auto"
 }
 
 module "s3" {
