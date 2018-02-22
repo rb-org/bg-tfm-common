@@ -1,3 +1,3 @@
 
 region = "eu-west-1"
-environment = "xxx"
+environment = "common"
