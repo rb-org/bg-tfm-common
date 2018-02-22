@@ -8,6 +8,3 @@ terraform {
     encrypt = "true"
   }
 }
-
-
-

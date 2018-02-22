@@ -12,3 +12,9 @@ module "s3" {
   default_tags = "${var.default_tags}"
   environment  = "${var.environment}"
 }
+
+module "iam" {
+  source = "./iam"
+
+  name_prefix = "${var.name_prefix}"
+}
