@@ -4,7 +4,7 @@ terraform {
   backend "s3" {
     bucket  = "bg-tfm-state"
     region  = "eu-west-1"
-    key     = "bg-base.tfstate"
+    key     = "bg-common.tfstate"
     encrypt = "true"
   }
 }
