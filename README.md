@@ -1,5 +1,11 @@
 # bg-tfm-common
 
+## Build Status
+
+|CI/CD|master|
+|---|:---:|
+|CircleCI |[![CircleCI](https://circleci.com/gh/rb-org/bg-tfm-common/tree/master.svg?style=svg&circle-token=3d0e9e12d6c4d122d34bb78743acbec7c4ddeef6)](https://circleci.com/gh/rb-org/bg-tfm-common/tree/master)
+
 Terraform workspace = xxx
 
 Mostly singleton resources used in other terraform plans
