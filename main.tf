@@ -16,7 +16,7 @@ module "iam" {
 
   name_prefix = "${var.name_prefix}"
 }
-
+/*
 module "r53" {
   source = "./r53"
 
@@ -24,3 +24,4 @@ module "r53" {
   default_tags = "${var.default_tags}"
   environment  = "${var.environment}"
 }
+*/
