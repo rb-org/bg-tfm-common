@@ -9,3 +9,8 @@ output "build_artifacts_id" {
 output "cloudtrail_logs_id" {
   value = "${module.s3.cloudtrail_logs_id}"
 }
+
+
+output "codebuild_artifacts_id" {
+  value = "${module.s3.codebuild_artifacts_id}"
+}
