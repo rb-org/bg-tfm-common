@@ -6,6 +6,10 @@ output "build_artifacts_id" {
   value = "${module.s3.build_artifacts_id}"
 }
 
+output "build_artifacts_arn" {
+  value = "${module.s3.build_artifacts_arn}"
+}
+
 output "cloudtrail_logs_id" {
   value = "${module.s3.cloudtrail_logs_id}"
 }
