@@ -25,3 +25,10 @@ resource "aws_iam_user_policy" "user_policy" {
 }
 EOF
 }
+
+module "codebuild_user" {
+  source = "git@github.com:rb-org/terraform-aws-iam-misc//admin_user"
+
+  username    = "bg_codebuild"
+  name_prefix = "${var.name_prefix}"
+}
