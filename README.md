@@ -10,8 +10,11 @@ Mostly singleton resources used in other terraform plans
 
 Needs to be created before any other plan. Backend.tf should be rem'd out until S3 bucket for remote state has been created.
 
-See also:
+Project Repos:
 
-https://github.com/rb-org/bg-tfm-prd-base
-https://github.com/rb-org/bg-tfm-prd-ec2
-https://github.com/rb-org/bg-tfm-ami-pipeline
+| Purpose | Repo |
+|---|---|
+| Common Resources | https://github.com/rb-org/bg-tfm-common |
+| Base networking | https://github.com/rb-org/bg-tfm-prd-base |
+| EC2 Instances | https://github.com/rb-org/bg-tfm-prd-ec2 |
+| AMI Build pipeline | https://github.com/rb-org/bg-tfm-ami-pipeline |

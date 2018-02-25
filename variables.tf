@@ -16,3 +16,5 @@ variable "default_tags" {
     GitHubOrganization = "rb-org"
   }
 }
+
+variable "acc_id" {}
