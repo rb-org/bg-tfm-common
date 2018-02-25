@@ -1,5 +1,6 @@
 provider "aws" {
-  region = "${var.region}"
+  region              = "${var.region}"
+  allowed_account_ids = ["${var.acc_id}"]
 }
 
 module "s3" {
