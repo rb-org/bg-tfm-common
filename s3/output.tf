@@ -6,6 +6,10 @@ output "build_artifacts_id" {
   value = "${aws_s3_bucket.build_artifacts.id}"
 }
 
+output "build_artifacts_arn" {
+  value = "${aws_s3_bucket.build_artifacts.arn}"
+}
+
 output "cloudtrail_logs_id" {
   value = "${aws_s3_bucket.cloudtrail_logs.id}"
 }
