@@ -13,3 +13,7 @@ output "cloudtrail_logs_id" {
 output "codebuild_artifacts_id" {
   value = "${aws_s3_bucket.codebuild_artifacts.id}"
 }
+
+output "codebuild_artifacts_arn" {
+  value = "${aws_s3_bucket.codebuild_artifacts.arn}"
+}
