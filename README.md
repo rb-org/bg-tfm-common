@@ -20,3 +20,11 @@ Needs to be created before any other plan. Backend.tf should be rem'd out until 
 | Base networking | https://github.com/rb-org/bg-tfm-prd-base |
 | EC2 Instances | https://github.com/rb-org/bg-tfm-prd-ec2 |
 | AMI Build pipeline | https://github.com/rb-org/bg-tfm-ami-pipeline |
+
+## Notes
+
+For local builds a "secret.tfvars" file is used. Contains only the acc_id variable:
+
+acc_id = "1234567890"
+
+Should be populated with the AWS account id that will be hosting the resources.
